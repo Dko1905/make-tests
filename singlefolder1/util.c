@@ -7,7 +7,7 @@
 
 static const char template[] = "Hello world, nr. %d";
 
-char *create_messege(int number) {
+char *create_message(int number) {
 	char *tmp = malloc(sizeof(template) + PRINTF_INT_BUFFER);
 	if (tmp == NULL) {
 		return NULL;

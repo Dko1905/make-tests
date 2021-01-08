@@ -4,14 +4,14 @@
 #include "util.h"
 
 int main() {
-	char *msg = create_messege(150);
+	char *msg = create_message(150);
 
 	if (msg == NULL) {
-		perror("Failed to create messege");
+		perror("Failed to create message");
 		return 1;
 	}
 
-	printf("Messge is %s\n", msg);
+	printf("Message is %s\n", msg);
 
 	free(msg);
 

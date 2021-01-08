@@ -1,6 +1,6 @@
 #ifndef UTIL_H
 #define UTIL_H
 
-char *create_messege(int _number);
+char *create_message(int _number);
 
 #endif
