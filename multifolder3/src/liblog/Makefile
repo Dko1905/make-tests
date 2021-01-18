@@ -2,7 +2,7 @@
 
 include $(CONFIG_MK)
 
-OBJECTS = log.o
+OBJECTS = log.o err.o
 
 all: $(OBJECTS)
 # Suffix rule to compile source to objects.
